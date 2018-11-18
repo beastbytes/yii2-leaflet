@@ -1,0 +1,23 @@
+{
+    "name": "beastbytes/yii2-leaflet",
+    "description": "Yii2 extension to integrate the Leaflet JavaScript mapping library",
+    "keywords": ["yii2", "widget", "Leaflet", "map", "mapping", "maps"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/beastbytes/yii2-leaflet/issues",
+        "source": "https://github.com/beastbytes/yii2-leaflet"
+    },
+    "authors": [
+        {
+            "name": "Chris Yates",
+            "email": "chris.l.yates@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": { "BeastBytes\\Leaflet\\": "src" }
+    }
+}
